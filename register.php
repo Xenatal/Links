@@ -21,7 +21,7 @@ if (isset($_POST['login']) && !empty($_POST['login']))
 	// $sql_link = get_link_info($url);
 }
 ?>
-
+ 
 <main class="container">
 <!-- если переменная не пустая, то вывод сообщения об ошибке: -->
 	<?php

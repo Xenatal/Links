@@ -88,7 +88,7 @@ function add_user ($login,$psw){
    $psw = password_hash($psw, PASSWORD_DEFAULT);
    echo $psw;
    die;
-
+ 
    return db_query("INSERT INTO `users` (`id`, `login`, `psw`) VALUES (NULL, '$login', '$psw');", true);
 }
 
